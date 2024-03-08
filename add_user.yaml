@@ -1,6 +1,6 @@
 ---
 - name: Create a user 
-  hosts: client1
+  hosts: worker
   become: yes
   tasks:
   - name: Add user baeldung
