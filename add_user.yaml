@@ -2,7 +2,7 @@
 - name: Create a user 
   hosts: worker
   tasks:
-  - name: Add user baeldung
+  - name: Add user 
     user:
       name: taslim
       shell: /bin/bash
